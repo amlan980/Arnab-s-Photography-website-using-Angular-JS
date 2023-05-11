@@ -1,0 +1,29 @@
+.body-background
+{
+    margin-top: 200px;
+    height: 400px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.grid-items
+{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 1fr;
+    gap: 10px;
+}
+.grid{
+    height: 400px;
+}
+.grid img
+{
+    height: 400px;
+    width: 1fr;
+}
+.grid img:hover
+{
+    height: 420px;
+    width: 1fr;
+    cursor: pointer;
+}

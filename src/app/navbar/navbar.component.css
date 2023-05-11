@@ -1,0 +1,48 @@
+.navbar
+{
+    background-color: rgb(255, 255, 255);
+    height: 60px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
+}
+.nav-logo img
+{
+    height: 60px;
+    float:left;
+    margin-left: 40px;
+    width: 100px;
+}
+.nav-logo a
+{
+    color: white;
+    text-decoration: none;
+}
+.nav-items
+{
+    height: 40px;
+    float:right;
+    margin-top: 20px;
+}
+.nav-items a:hover
+{
+    background-color: rgb(229, 226, 226);
+}
+.nav-items a
+{
+    color: black;
+    padding: 20px;
+    margin: 30px;
+    align-items: center;
+    text-decoration: none;
+}
+.nav-items a:hover
+{
+    color: rgb(161, 163, 184);
+    padding: 20px;
+    margin: 30px;
+    align-items: center;
+    text-decoration: none;
+}
+.active
+{
+    background: rgb(229, 226, 226);
+}

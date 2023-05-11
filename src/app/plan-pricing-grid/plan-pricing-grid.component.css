@@ -1,0 +1,33 @@
+.plans-grid
+{
+    display: flex;
+    justify-content: center;
+    margin: 25px;
+
+}
+.plans
+{
+    display: flex;
+    justify-content: center;
+    margin-top: 180px;
+}
+.heading
+{
+    text-decoration: underline;
+}
+.div-heading
+{
+    margin-left: 620px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+.image
+{
+    margin-left: 480px;
+    
+}
+.image img
+{
+    height: 800px;
+    width: 600px;
+}
